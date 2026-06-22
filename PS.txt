@@ -3,7 +3,7 @@ Clear-History
 Remove-Item (Get-PSReadLineOption).HistorySavePath -Force -ErrorAction SilentlyContinue
 
 
-How to hide try { . "c:\Users\Levono\AppData\Local\Programs\Microsoft VS Code\fcf604774b\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+# How to hide try { . "c:\Users\Levono\AppData\Local\Programs\Microsoft VS Code\fcf604774b\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
 
 1. Open VS Code.
 
