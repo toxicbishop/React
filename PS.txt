@@ -1,0 +1,3 @@
+[Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
+Clear-History
+Remove-Item (Get-PSReadLineOption).HistorySavePath -Force -ErrorAction SilentlyContinue
