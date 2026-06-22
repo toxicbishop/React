@@ -1,2 +1,3 @@
-# 1. Switch to Git bash and do git clone and npm install for ur program
-# 2. Switch back to PS and do npm star
+1. Switch to Git bash and do git clone and npm install for ur program
+2. history -c
+3. Switch back to PS and do npm start
