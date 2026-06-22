@@ -1,3 +1,16 @@
 [Microsoft.PowerShell.PSConsoleReadLine]::ClearHistory()
 Clear-History
 Remove-Item (Get-PSReadLineOption).HistorySavePath -Force -ErrorAction SilentlyContinue
+
+
+How to hide try { . "c:\Users\Levono\AppData\Local\Programs\Microsoft VS Code\fcf604774b\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+
+1. Open VS Code.
+
+2. Press Ctrl + , (Comma) to open Settings.
+
+3. In the search bar at the top, type: shell integration
+
+4. Uncheck the box that says Terminal › Integrated › Shell Integration: Enabled.
+
+5. Close and reopen the VS Code terminal.
